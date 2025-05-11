@@ -295,5 +295,32 @@
         $('.js-modal3').removeClass('show-modal3');
     });
 
+    $('.js-show-modal4').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal4').addClass('show-modal4');
+    });
+
+    $('.js-hide-modal4').on('click',function(){
+        $('.js-modal4').removeClass('show-modal4');
+    });
+
+    $('.js-show-modal5').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal5').addClass('show-modal5');
+    });
+
+    $('.js-hide-modal5').on('click',function(){
+        $('.js-modal5').removeClass('show-modal5');
+    });
+
+    $('.js-show-modal6').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal6').addClass('show-modal6');
+    });
+
+    $('.js-hide-modal6').on('click',function(){
+        $('.js-modal6').removeClass('show-modal6');
+    });
+
 
 })(jQuery);
