@@ -322,5 +322,14 @@
         $('.js-modal6').removeClass('show-modal6');
     });
 
+    $('.js-show-modal7').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal7').addClass('show-modal7');
+    });
+
+    $('.js-hide-modal7').on('click',function(){
+        $('.js-modal7').removeClass('show-modal7');
+    });
+
 
 })(jQuery);
