@@ -331,5 +331,13 @@
         $('.js-modal7').removeClass('show-modal7');
     });
 
+    $('.js-show-modal8').on('click',function(e){
+        e.preventDefault();
+        $('.js-modal8').addClass('show-modal8');
+    });
+
+    $('.js-hide-modal8').on('click',function(){
+        $('.js-modal8').removeClass('show-modal8');
+    });
 
 })(jQuery);
