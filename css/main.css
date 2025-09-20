@@ -1873,7 +1873,8 @@ input.num-product::-webkit-inner-spin-button {
 .wrap-modal4,
 .wrap-modal5,
 .wrap-modal6,
-.wrap-modal7{
+.wrap-modal7,
+.wrap-modal8{
   position: fixed;
   width: 100%;
   height: 100vh;
@@ -1897,7 +1898,8 @@ input.num-product::-webkit-inner-spin-button {
 .overlay-modal4,
 .overlay-modal5,
 .overlay-modal6,
-.overlay-modal7{
+.overlay-modal7,
+.overlay-modal8{
   position: fixed;
   z-index: -1;
   width: 100%;
@@ -1914,7 +1916,8 @@ input.num-product::-webkit-inner-spin-button {
 .show-modal4,
 .show-modal5,
 .show-modal6,
-.show-modal7{
+.show-modal7,
+.show-modal8{
   visibility: visible;
   opacity: 1;
 }
